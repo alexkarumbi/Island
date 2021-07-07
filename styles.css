@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+}
+body{
+    height: 50vh;
+    background-image: url(/Images/island.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid blue;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
