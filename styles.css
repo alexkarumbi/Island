@@ -1,8 +1,4 @@
-*{
-    margin: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0%;
-}
+
 body{
     height: 50vh;
     background-image: url(/Images/island.jpg);
@@ -11,7 +7,6 @@ body{
 }
 ul{
     float: right;
-    margin-top: 25px;
 }
 ul li{
     display: inline-block;
@@ -30,4 +25,9 @@ ul li a:hover{
     float: left;
     width: 50px;
     height: auto;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+    margin: 100px;
 }
